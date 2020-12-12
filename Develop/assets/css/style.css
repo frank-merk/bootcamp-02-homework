@@ -1,6 +1,6 @@
-/* This is the stylesheet for the Horiseon Social Solution Services, Inc. website. The website contains a <header> conatining a <nav>, a <main> section containing a <section> and <aside>, and a <footer.
+/* This is the stylesheet for the Horiseon Social Solution Services, Inc. website. The website contains a <header> conatining a <nav>, a hero image, primary content contained in <section>, extra details in an <aside>, and a <footer>.
 
-The primary section of main contains a hero image and lays out the services provided by Horiseon with three articles. This section occupies most of the screen and is aligned on the left. To the right, there is a sidebar that lays out the benefits a customer could get by partnering with Horiseon containd in an <aside> section with <figure> and <figcaption> elements. */
+The primary content section lays out the services provided by Horiseon with three articles. This section occupies most of the screen and is aligned on the left. To the right, there is a sidebar that lays out the benefits a customer could get by partnering with Horiseon containd in an <aside> section with <figure> and <figcaption> elements. */
 
 /* || General Styles */
 
@@ -112,9 +112,9 @@ article h2 {
     margin-left: 25px;
 }
 
-/* This is the sidebar that describes the benefits of Horiseon's services */
+/* End of primary content section. The following styles the sidebar that describes the benefits of Horiseon's services */
 
-/* This is styles the container for the sidebar elements */
+/*conatiner*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -126,7 +126,7 @@ aside {
     background-color: #2589bd;
 }
 
-/* This styles a sidebar element */
+/* This styles a content block */
 figure {
     margin-bottom: 32px;
     color: #ffffff;
@@ -144,6 +144,9 @@ figure img {
     max-width: 150px;
 }
 
+/* End of sidebar section */
+
+/* Footer Styles*/
 footer {
     padding: 30px;
     clear: both;
