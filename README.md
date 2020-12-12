@@ -1,6 +1,6 @@
 # Bootcamp 02-Homework Assignment: Code Refactoring
 
-##Description
+## Description
 
 This week's homework assignment was to refactor code for a digital services company called Horiseon. The primary goal of the assignment were to improve the website's **accessibility** while also following the **scout rule** of leaving the code a little cleaner than it was found. To accomplish this task, the following improvements were made:
 
@@ -10,7 +10,7 @@ This week's homework assignment was to refactor code for a digital services comp
   * Eliminated redundancy in styling whenever possible.
   * Left comments throughout the codebase to describe what the code was doing.
   
-##A Note on Styling Strategy
+## A Note on Styling Strategy
 
 There were many ways to structure this webpage using semantic html and CSS. In order to keep the code as clean as possible, I opted to eliminate classes when applicable and focus instead on styling the semantic html elements like *section*, *aside*, *article*, and so on. Across the homepage I found a lot of replicated styles and redundancies across classes that could be simply contained within the style of a given html element.
 
