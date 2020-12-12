@@ -1,0 +1,156 @@
+/* This is the stylesheet for the Horiseon Social Solution Services, Inc. website. The website contains a <header> conatining a <nav>, a <main> section containing a <section> and <aside>, and a <footer.
+
+The primary section of main contains a hero image and lays out the services provided by Horiseon with three articles. This section occupies most of the screen and is aligned on the left. To the right, there is a sidebar that lays out the benefits a customer could get by partnering with Horiseon containd in an <aside> section with <figure> and <figcaption> elements. */
+
+/* || General Styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+p, figcaption {
+    font-size: 16px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* || Header and Main Navigation */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* This is a short class to highlight "seo" in "Horiseon" as grey text */
+.seo {
+    color: #d9dcd6;
+}
+
+/* This styles the navigation bar */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* The next two styles make the navigation elements display in a straight line across the top ovf the nav bar */
+nav ul {
+    list-style-type: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* || Main Section */
+
+/* Container for articles about Horiseon's services */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Homepage hero image */
+.hero { 
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* This the link to the main hero image on the homepage. */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styles the articles that describe Horiseon's services */
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Used to align images left for an alternating look in the articles section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Used to align images right for an alternating look in the articles section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This is the sidebar that describes the benefits of Horiseon's services */
+
+/* This is styles the container for the sidebar elements */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* This styles a sidebar element */
+figure {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+figure h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* This sets image rules within figure elements in the sidebar */
+figure img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
